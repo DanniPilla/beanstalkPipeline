@@ -10,7 +10,7 @@ app.use((err, req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to the API!" });
+  res.json({ message: "Welcome Danni's App API!" });
 });
 
 app.listen(port, () => {
